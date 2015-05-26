@@ -39,6 +39,7 @@ int main()
 	/* Display Results */
 	std::cout << runtime.count() << " seconds" << std::endl;
 	std::cout << count << " loops" << std::endl;
+	return 0;
 }
 
 void shuffle(int numarray[], int size)
